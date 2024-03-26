@@ -1,0 +1,21 @@
+package ejercicio51_60;
+
+//usos de arrays caracteres - recorrido mediante for
+public class Ejercicio_56 {
+
+	public static void main(String[] args) {
+		
+		char[] caracter = new char[6];
+		
+		caracter[0] = 'R';
+		caracter[1] = '%';
+		caracter[2] = '&';
+		caracter[3] = '+';
+		caracter[4] = 'A';
+		caracter[5] = '2';
+		
+		for(int i=0; i<6;i++) {
+			System.out.println(caracter[i]);
+		}
+	}
+}
